@@ -1,0 +1,124 @@
+/* General App Styles */
+.App {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Container Styles for Material UI */
+.MuiContainer-root {
+  margin-top: 20px;
+}
+
+/* Card Styles */
+.MuiCard-root {
+  margin: 10px;
+  text-align: left;
+}
+
+/* Grid Layout for Dashboard */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Graph Card Styles */
+.graph-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Select Dropdown Styles */
+select {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+/* Table Styles */
+.table-container {
+  overflow-x: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 16px;
+  text-align: center; /* Center align content */
+  border: 1px solid #e0e0e0;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  color: #333;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1faff;
+}
+
+/* Severity Badge Styles */
+.severity-badge {
+  padding: 4px 12px;
+  font-size: 12px;
+  border-radius: 12px;
+  color: #fff;
+  display: inline-block;
+  text-align: center; /* Center the text inside the badge */
+}
+
+.severity-high {
+  background-color: #f44336;
+}
+
+.severity-medium {
+  background-color: #ff9800;
+}
+
+.severity-low {
+  background-color: #4caf50;
+}
+
+/* Optional: Styles for the table headers */
+th {
+  background-color: #e3f2fd;
+  color: #1e88e5;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+/* Table Row Styling */
+table tr {
+  transition: background-color 0.3s ease;
+}
+
+table tr:nth-child(odd) {
+  background-color: #fafafa;
+}
